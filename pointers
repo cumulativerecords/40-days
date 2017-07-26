@@ -20,6 +20,7 @@ int main () {
    return 0;
 }
 
+//variables are actually stored on a hexadecimal code in memory location. If you return the value, you will not get hexadecimal but instead it will be something human readable such as "20" if the variable added 10 + 10. 
 
 //Null example
 //Rationale: Best practice to declare NULL the variables you define but do not know precisely what the address will be yet. Use NULL instead of zero because value of zero (0) is reserved by some operating systems for other purposes, causing issues when trying to run your C code.
