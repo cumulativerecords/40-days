@@ -1,0 +1,19 @@
+Function
+Taken from following the E61 video (publicly available, course wiki).
+Timestamp: 27:35
+
+//code, simplest form
+int add(int a, int b) {
+    return a + b;
+    }
+    
+//alternate code
+int add(int first_one, int second_one) {
+    return first_one + second_one;
+    }
+    
+//alternate code 1  /* favorite. uses knowledge from CS-50. */
+unsigned add(unisgned a, unsigned b) {
+    return a + b;
+    }
+    
