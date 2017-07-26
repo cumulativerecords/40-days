@@ -1,0 +1,23 @@
+Pointers Example
+
+#include <stdio.h>
+
+int main () {
+
+   int  var = 5;   /* actual variable declaration */
+   int  *p;        /* pointer variable declaration */
+
+   p = &var;  /* store address of var in pointer variable*/
+
+   printf("Address of var variable: %x\n", &var  );
+
+   /* address stored in pointer variable */
+   printf("Address stored in p variable: %x\n", p );
+
+   /* access the value using the pointer */
+   printf("Value of *p variable: %d\n", *p );
+
+   return 0;
+}
+
+(Example from http://www.tutorialspoint.com/cprogramming/c_pointers.htm )
